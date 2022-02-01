@@ -1,0 +1,154 @@
+/* Шрифты */
+
+@font-face{
+	font-family: "Laro Light";
+	src: url("../fonts/Laro-Light.woff") format("woff"), url("../fonts/Laro-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: "Laro Bold";
+	src: url("../fonts/Laro-Bold.woff") format("woff"), url("../fonts/Laro-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: "Laro Black";
+	src: url("../fonts/Laro-Black.woff") format("woff"), url("../fonts/Laro-Black.woff2") format("woff2");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Шрифты */
+
+body {
+	font-family: "Laro Light", sans-serif;
+	font-size: 20px;
+	word-spacing: 1.5px
+}
+
+span{
+	text-transform:uppercase;
+}
+
+.headline-main{
+	font-family: "Laro Black", sans-serif;
+	font-size: 40px;
+	line-height: 2.5;
+	text-align: center;
+	text-shadow: 0px 0px 2px;
+	color: rgb(0, 0, 0);
+}
+
+.img1 {
+	text-align: center;
+}
+
+.img2 {
+	text-indent: 200px;
+}
+
+.img3 {
+	text-align: center;
+}
+
+.text-block1 {
+	text-indent: 70px;
+	line-height: 2.1;
+}
+
+.text-block1-p{
+	text-indent: 70px;
+	line-height: 2.1;
+	text-shadow: 5px 1px 5px;
+	word-spacing: 3.5px;
+}
+
+.list {
+	font-weight: 900;
+	text-indent: 470px;
+	line-height: 4;
+	text-shadow: 0px 0px 5px;
+	word-spacing: 3.5px;
+	color: rgb(83, 30, 30);
+}
+
+.text-block2 {
+	text-indent: 70px;
+	line-height: 2.1;
+}
+
+.headline-secondary-1 {
+	font-family: "Laro Bold", sans-serif;
+	text-indent: 370px;
+	line-height: 2.5;
+	font-size: 30px;
+	text-shadow: 1px 1px 5px;
+	color: rgb(58, 57, 57);
+}
+
+.headline-secondary-2 {
+	font-family: "Laro Bold", sans-serif;
+	text-align: center;
+	line-height: 2.5;
+	font-size: 30px;
+	text-shadow: 5px 2px 5px;
+	color: rgb(49, 43, 43);
+}
+
+.text-block3 {
+	text-indent: 70px;
+	line-height: 2.1;
+}
+
+.text-block3-p{
+	text-indent: 70px;
+	line-height: 2.1;
+	text-shadow: 5px 1px 5px;
+	word-spacing: 3.5px;
+}
+
+.text-block4 {
+	text-indent: 70px;
+	line-height: 2.1;
+}
+
+.text-block4-p{
+	text-indent: 70px;
+	line-height: 2.1;
+	text-shadow: 5px 1px 5px;
+	word-spacing: 3.5px;
+}
+
+.headline-secondary-3 {
+	font-family: "Laro Bold", sans-serif;
+	text-indent: 370px;
+	line-height: 2.5;
+	font-size: 30px;
+	text-shadow: 5px 2px 5px;
+	color: rgb(61, 60, 60);
+}
+
+.text-block5 {
+	font-size: 40px;
+	text-indent: 70px;
+	line-height: 3.1;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-decoration: underline rgb(107, 82, 218);
+}
+
+.price{
+	text-decoration: line-through;
+	letter-spacing: 25px;
+	color: red;
+}
+
+.price-real{
+	font-family: "Laro Bold", sans-serif;
+}
